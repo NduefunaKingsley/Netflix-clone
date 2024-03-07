@@ -1,0 +1,133 @@
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+hr {
+    height: 10%;
+    color: gray;
+}
+
+.box1 {
+    width: 90%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/be06dd8d-87c2-481d-9420-a6cdff92a252/GH-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    cursor: pointer;
+    background: transparent;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.P{
+    color: white;
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+    margin-top: 5%;
+    width: 90%;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+}    
+.login{
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+    column-gap: 2%;
+}
+.small{
+    border-radius: 10px;
+    height: 60%;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.S{
+    border-radius: 10px;
+    height: 60%;
+    width: 20%;
+    background: #ff0000;
+    color:#fff;
+    cursor: pointer;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.A{
+    width: 50%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 12%;
+    font-size: x-large;
+}
+.B{
+    width: 60%;
+    height: 40%;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.C{
+    margin-left: 12%
+}
+.D{
+    margin-top: 10%;
+    margin-right: 12%;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+.E{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 14%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+.box5{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.F{
+    margin-left: 13%;
+}
+.G{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 10%;
+    width: 50%;
+    margin-right: 2%;
+}
